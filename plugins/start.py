@@ -83,7 +83,7 @@ async def start_command(client: Client, message: Message):
                                    #   text=f"<b>⚠️ Wᴀʀɴɪɴɢ ⚠️\n\nTʜᴇsᴇ Fɪʟᴇ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Iɴ 2Hᴏᴜʀs. Fᴏʀᴡᴀʀᴅ Tʜᴇsᴇ Mᴇssᴀɢᴇs...!</b>")
 
         # Schedule the file deletion
-        asyncio.create_task(delete_files(genanime_msg, client))
+        asyncio.create_task(delete_files(genanime_msg, client, k))
 
         return
     else:
