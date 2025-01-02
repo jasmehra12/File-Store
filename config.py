@@ -30,7 +30,7 @@ FORCE_SUB_CHANNEL4 = os.environ.get("FORCE_SUB_CHANNEL4", "@Pirate_flicks")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "99999999")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1800")) # auto delete in seconds
 
 START_PIC = os.environ.get("START_PIC", "https://static.vecteezy.com/system/resources/thumbnails/036/095/205/small_2x/ai-generated-beautiful-anime-girl-photo.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://static.vecteezy.com/system/resources/thumbnails/022/385/025/small_2x/a-cute-surprised-black-haired-anime-girl-under-the-blooming-sakura-ai-generated-photo.jpg")
@@ -51,7 +51,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>ʜᴇʟʟᴏ {first}...\nᴊ
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
