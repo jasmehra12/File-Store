@@ -26,7 +26,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "unknown")
 FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "@DS_ANIMEX")
 FORCE_SUB_CHANNEL2 = os.environ.get("FORCE_SUB_CHANNEL2", "@FusionAnime")
 FORCE_SUB_CHANNEL3 = os.environ.get("FORCE_SUB_CHANNEL3", "@GenAnimeOfc")
-FORCE_SUB_CHANNEL4 = os.environ.get("FORCE_SUB_CHANNEL4", "@netflixcookientv)
+FORCE_SUB_CHANNEL4 = os.environ.get("FORCE_SUB_CHANNEL4", "@netflixcookientv")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
