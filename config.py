@@ -23,7 +23,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://nitinkumardhundhara:DARKX
 DB_NAME = os.environ.get("DATABASE_NAME", "unknown")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "@DS_ANIMEX")
+FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "@Flower_And_Asura_Dub")
 FORCE_SUB_CHANNEL2 = os.environ.get("FORCE_SUB_CHANNEL2", "@FusionAnime")
 FORCE_SUB_CHANNEL3 = os.environ.get("FORCE_SUB_CHANNEL3", "@HeroOrganizationManga")
 FORCE_SUB_CHANNEL4 = os.environ.get("FORCE_SUB_CHANNEL4", "@GenAnimeOfc")
