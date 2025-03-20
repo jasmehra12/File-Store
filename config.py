@@ -32,7 +32,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "7200")) # auto delete in seconds
 
 START_PIC = os.environ.get("START_PIC", "https://images4.alphacoders.com/135/1357584.png")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://external-preview.redd.it/madara-uchiha-rampage-4k-live-wallpaper-v0-6glc1OrKBhlnqKFoVcTS_1vgfBPK7mAnpacaYprze-U.jpg?auto=webp&s=a11e3cf30336aae181c1bd60a25d482dab6078ae")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://images4.alphacoders.com/135/1357584.png")
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!!! <b>{first}</b>\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 try:
