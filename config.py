@@ -26,14 +26,13 @@ DB_NAME = os.environ.get("DATABASE_NAME", "unknown")
 FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "@rezero_dual_audio_01")
 FORCE_SUB_CHANNEL2 = os.environ.get("FORCE_SUB_CHANNEL2", "@GenAnimeOfc")
 FORCE_SUB_CHANNEL3 = os.environ.get("FORCE_SUB_CHANNEL3", "@HeroOrganizationManga")
-FORCE_SUB_CHANNEL4 = os.environ.get("FORCE_SUB_CHANNEL4", "@GenAnimeOfc")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "7200")) # auto delete in seconds
 
-START_PIC = os.environ.get("START_PIC", "https://static.vecteezy.com/system/resources/thumbnails/036/095/205/small_2x/ai-generated-beautiful-anime-girl-photo.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://static.vecteezy.com/system/resources/thumbnails/022/385/025/small_2x/a-cute-surprised-black-haired-anime-girl-under-the-blooming-sakura-ai-generated-photo.jpg")
+START_PIC = os.environ.get("START_PIC", "https://images4.alphacoders.com/135/1357584.png")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://external-preview.redd.it/madara-uchiha-rampage-4k-live-wallpaper-v0-6glc1OrKBhlnqKFoVcTS_1vgfBPK7mAnpacaYprze-U.jpg?auto=webp&s=a11e3cf30336aae181c1bd60a25d482dab6078ae")
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!!! <b>{first}</b>\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 try:
