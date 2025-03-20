@@ -31,8 +31,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "7200")) # auto delete in seconds
 
-START_PIC = os.environ.get("START_PIC", "https://images4.alphacoders.com/135/1357584.png")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://images4.alphacoders.com/135/1357584.png")
+START_PIC = os.environ.get("START_PIC", "https://wallpapers.com/images/hd/naruto-final-form-1920-x-1200-qmz41z5fd42hgr3y.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://wallpapers.com/images/hd/naruto-final-form-1920-x-1200-qmz41z5fd42hgr3y.jpg")
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!!! <b>{first}</b>\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 try:
