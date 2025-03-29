@@ -12,7 +12,7 @@ from config import *
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            name="Bot",
+            name="radi",
             api_hash=API_HASH,
             api_id=APP_ID,
             plugins={
