@@ -9,9 +9,9 @@ from helper_func import subscribed, encode, decode, get_messages
 from database.db import add_user, del_user, full_userbase, present_user
 from pyrogram.types import Message
 
-GenAnime = FILE_AUTO_DELETE
-DARKXSIDE78 = GenAnime
-file_auto_delete = humanize.naturaldelta(DARKXSIDE78)
+Nova Anime = FILE_AUTO_DELETE
+Jas_Mehra = GenAnime
+file_auto_delete = humanize.naturaldelta(Jas_Mehra)
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
 async def start_command(client: Client, message: Message):
@@ -83,14 +83,14 @@ async def start_command(client: Client, message: Message):
                                       text=f"<b>⚠️ Wᴀʀɴɪɴɢ ⚠️\n\nTʜᴇsᴇ Fɪʟᴇ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Iɴ 2Hᴏᴜʀs. Fᴏʀᴡᴀʀᴅ Tʜᴇsᴇ Mᴇssᴀɢᴇs...!</b>")
 
         # Schedule the file deletion
-        asyncio.create_task(delete_files(genanime_msg, client, k))
+        asyncio.create_task(delete_files(Nova_msg, client, k))
 
         return
     else:
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚡️ ᴍᴀɪɴ ʜᴜʙ", url = "t.me/genanimeofc"),
+                    InlineKeyboardButton("⚡️ ᴍᴀɪɴ ʜᴜʙ", url = "t.me/Anime_x_Nova"),
                     InlineKeyboardButton("🍁 ʀᴀɴᴅᴏᴍ", url = "t.me/bots_Nation")
                 ],
                 [
