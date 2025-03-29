@@ -20,7 +20,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6039119180"))
 PORT = os.environ.get("PORT", "8030")
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://botxhub69:Jasmehra1322@cluster0.a8eqa.mongodb.net/") 
-DB_NAME = os.environ.get("DATABASE_NAME", "unknown"
+DB_NAME = os.environ.get("DATABASE_NAME", "unknown")
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "@hentaicomplex1")
 FORCE_SUB_CHANNEL2 = os.environ.get("FORCE_SUB_CHANNEL2", "@Jav_Complex")
