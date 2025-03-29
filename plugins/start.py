@@ -10,7 +10,7 @@ from database.db import add_user, del_user, full_userbase, present_user
 from pyrogram.types import Message
 
 Nova Anime = FILE_AUTO_DELETE
-Jas_Mehra = GenAnime
+Jas_Mehra = AnimexNova
 file_auto_delete = humanize.naturaldelta(Jas_Mehra)
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
