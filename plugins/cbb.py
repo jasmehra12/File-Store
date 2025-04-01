@@ -9,11 +9,11 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     if data == "about":
         await query.message.edit_text(
             text = (
-    "<b>○ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Darkxside78'>DARKXSIDE78</a>\n"
+    "<b>○ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Jas_Mehra'>Jas_Mehra</a>\n"
     "○ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/downloads/'>Pʏᴛʜᴏɴ</a>\n"
     "○ Lɪʙʀᴀʀʏ: <a href='https://github.com/pyrogram/pyrogram'>Pʏʀᴏɢʀᴀᴍ</a>\n"
-    "○ Mᴀɪɴ Cʜᴀɴɴᴇʟ: <a href='https://t.me/genanimeofc'>Gᴇɴ Aɴɪᴍᴇ</a>\n"
-    "○ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ: <a href='https://t.me/Genanimeofcchat'>Gᴇɴ Cʜᴀᴛ</a></b>"
+    "○ Mᴀɪɴ Cʜᴀɴɴᴇʟ: <a href='https://t.me/Adults_Complex'>Adult Network</a>\n"
+    "○ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ: <a href='https://t.me/Anime_Nova_Chat_Group'>Nova Cʜᴀᴛ</a></b>"
 ),
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
@@ -30,7 +30,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⚡️ ᴍᴀɪɴ ʜᴜʙ", url= "https://t.me/genanimeofc"),
+                        InlineKeyboardButton("⚡️ ᴍᴀɪɴ ʜᴜʙ", url= "Adults_Complex"),
                     ],
                     [
                     InlineKeyboardButton("🛈 ᴀʙᴏᴜᴛ", callback_data = "about"),
