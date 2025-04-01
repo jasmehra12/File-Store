@@ -9,8 +9,8 @@ from helper_func import subscribed, encode, decode, get_messages
 from database.db import add_user, del_user, full_userbase, present_user
 from pyrogram.types import Message
 
-GenAnime = FILE_AUTO_DELETE
-DARKXSIDE78 = GenAnime
+Nova_x_Anime = FILE_AUTO_DELETE
+Jas_Mehra = Nova_x_Anime
 file_auto_delete = humanize.naturaldelta(Jas_Mehra)
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
