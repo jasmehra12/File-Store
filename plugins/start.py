@@ -11,7 +11,7 @@ from pyrogram.types import Message
 
 GenAnime = FILE_AUTO_DELETE
 DARKXSIDE78 = GenAnime
-file_auto_delete = humanize.naturaldelta(DARKXSIDE78)
+file_auto_delete = humanize.naturaldelta(Jas_Mehra)
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
 async def start_command(client: Client, message: Message):
@@ -90,8 +90,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚡️ ᴍᴀɪɴ ʜᴜʙ", url = "t.me/genanimeofc"),
-                    InlineKeyboardButton("🍁 ʀᴀɴᴅᴏᴍ", url = "t.me/bots_Nation")
+                    InlineKeyboardButton("⚡️ ᴍᴀɪɴ ʜᴜʙ", url = "t.me/Adults_Complex"),
+                    InlineKeyboardButton("🍁 ʀᴀɴᴅᴏᴍ", url = "t.me/Nova_Networks")
                 ],
                 [
                     InlineKeyboardButton("🛈 ᴀʙᴏᴜᴛ", callback_data = "about"),
