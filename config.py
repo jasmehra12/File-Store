@@ -2,7 +2,7 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-
+ram=[6039119180, 7232955948, 1062696649]
 
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7776271794:AAF90fUE1-Bd9dNv4JDdlNpk8B6i8XCJYFc")
@@ -58,7 +58,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "<b>ʙᴀᴋᴋᴀᴀᴀ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!!</b>"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6039119180, 7232955948, 1062696649)
+ADMINS.append(ram)
 
 LOG_FILE_NAME = "bot.txt"
 
