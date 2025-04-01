@@ -11,7 +11,7 @@ from pyrogram.types import Message
 
 Nova_x_Anime = FILE_AUTO_DELETE
 Jas_Mehra = Nova_x_Anime
-file_auto_delete = humanize.naturaldelta(Jas_Mehra)
+file_auto_delete = humanize.naturaldelta(6039119180)
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
 async def start_command(client: Client, message: Message):
