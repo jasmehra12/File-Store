@@ -58,7 +58,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "<b>ʙᴀᴋᴋᴀᴀᴀ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!!</b>"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(ram)
+
 
 LOG_FILE_NAME = "bot.txt"
 
